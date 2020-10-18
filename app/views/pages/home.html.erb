@@ -7,13 +7,9 @@
   </label>
   <div id="sidebarMenu">
     <ul class="sidebarMenuInner">
-      <li class="nav-item active">
-        <%= link_to "Home", root_path %>
-      </li>
-      <li>
-        <%= link_to "About", about_path %>
-      </li>
-      <li><a href="#" target="_blank">Contact</a></li>
+      <li class="nav-item active"><%= link_to "Home", root_path %></li>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Contact", new_signup_path %></li>
     </ul>
   </div>
 
@@ -22,7 +18,7 @@
     <div class="container">
         <h1>Create and share Stories</h1>
         <div class="row justify-content-center">
-            <a class="btn btn-primary" href="#">Lean more</a>
+            <a><%= link_to "Lean more", about_path, class: "btn btn-primary" %></a>
         </div>
     </div>
 </div>
@@ -38,7 +34,9 @@
 <div class="container text">
     <h1 class="h1two">Discover Stories</h1>
     <div class="row justify-content-center">
-        <a class="btn btn-primary" href="#">Lean more</a>
+        <a>
+        <%= link_to "Lean more", about_path, class: "btn btn-primary" %>
+        </a>
     </div>
 </div>
 

@@ -7,13 +7,9 @@
   </label>
   <div id="sidebarMenu">
     <ul class="sidebarMenuInner">
-      <li class="nav-item active">
-        <%= link_to "Home", root_path %>
-      </li>
-      <li>
-        <%= link_to "About", about_path %>
-      </li>
-      <li><a href="#" target="_blank">Contact</a></li>
+      <li class="nav-item active"><%= link_to "Home", root_path %></li>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Contact", new_signup_path %></li>
     </ul>
   </div>
 
@@ -28,7 +24,7 @@
     <h1 class="h1two">No more sorting through photos</h1>
     <p id="p-two" style="text-align: center">Stories automatically finds your best photos and creates a new travelogue. This way you can capture and share your special moments in fresh new ways.</p>
     <div class="row justify-content-center">
-        <a class="btn btn-primary" href="#">sign up</a>
+        <%= link_to "Contact", new_signup_path, class: "btn btn-primary" %>
     </div>
 </div>
 

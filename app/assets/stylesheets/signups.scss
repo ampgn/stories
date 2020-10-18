@@ -1,0 +1,43 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.footer-two {
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+}
+
+.form-actions {
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form-control {
+    opacity: 0.70;
+}
+
+label {
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+}
+.banner1 {
+    background-size: cover;
+    background-position: center;
+    padding: 52px 0;
+}
+
+.banner1 h1 {
+    margin-top: 130px;
+    margin-bottom: 25px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
