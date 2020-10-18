@@ -161,6 +161,16 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-bottom: 100px;
   }
 
+  #p-two {
+    font-size: 20px;
+    color: black;
+    opacity: 0.50;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    text-align: right;
+    letter-spacing: 0.10ch;
+    margin-bottom: 30px;
+  }
+
   .footer {
     background: #F4F4F4;
     display: flex;
